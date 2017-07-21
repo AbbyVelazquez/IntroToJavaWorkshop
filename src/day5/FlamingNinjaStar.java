@@ -38,18 +38,20 @@ steve.move(64);
 			// 4. Turn the robot 40 degrees to the LEFT. (Negative numbers will turn the robot counter-clockwise.)
 			steve.turn(-40);
 			// 5. Move the robot the distance in the variable flameSize
+			steve.setPenColor(Color.yellow);
 			steve.move(flameSize);
 			// 6. Turn the robot 170 degrees
 			steve.turn(170);
 			// 7. Move the robot the distance in the variable flameSize (again)
+			
 			steve.move(flameSize);
 			// 8. Turn the robot 64 degrees to the right
 			steve.turn(64);
 			// 9. Move the robot the distance in the variable baseSize
+			steve.setPenColor(Color.black);
 			steve.move(baseSize);
 			// 10. Check that your shape is the same as Figure 1. This is one arm of the ninja star.
 			// 11. Color your ninja star like Figure 2.
-		steve.setPenColor(Color.yellow);
 	}
 	}
 }
